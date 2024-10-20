@@ -107,6 +107,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Shane Chen - hsiangyuan0219@gmail.com
+Allen Lee - allen93075@gmail.com
 
 Project Link:
 
