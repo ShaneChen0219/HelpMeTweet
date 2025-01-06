@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2025-01-06T08:37:03.373Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="BpKmEdzqzZBk_dAnbdYM" version="24.2.5" type="device">
+  <diagram name="Page-1" id="jG6BxiGn4aeofjq_DOOM">
+    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="15" y="30" width="570" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4xVrQkTRqRPMBe04vkgB-8">
+          <mxGeometry width="570" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-2" value="Request/Service(R)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4xVrQkTRqRPMBe04vkgB-8">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-3" value="Content(R)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4xVrQkTRqRPMBe04vkgB-8">
+          <mxGeometry x="20" y="90" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-4" value="Like" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4xVrQkTRqRPMBe04vkgB-8">
+          <mxGeometry x="20" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-5" value="Comment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4xVrQkTRqRPMBe04vkgB-8">
+          <mxGeometry x="150" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-6" value="Send" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4xVrQkTRqRPMBe04vkgB-8">
+          <mxGeometry x="280" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-7" value="?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4xVrQkTRqRPMBe04vkgB-8">
+          <mxGeometry x="410" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Post Request Json&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&quot;accountName&quot;:&quot;&quot;,&lt;/p&gt;&lt;p&gt;&quot;postType&quot;:&quot;&quot;.&lt;/p&gt;&lt;p&gt;&quot;timeRange&quot;:&quot;&quot;,&lt;/p&gt;&lt;p&gt;&quot;location&quot;:&quot;&quot;,&lt;/p&gt;&lt;p&gt;&quot;content&quot;:&quot; &quot;,&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="500" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-12" value="Required:&lt;div&gt;Service type&lt;/div&gt;&lt;div&gt;Content&lt;/div&gt;&lt;div&gt;Price sugestion&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="70" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4xVrQkTRqRPMBe04vkgB-13" value="DB:&lt;br&gt;MongoDB&lt;div&gt;Redis =&amp;gt; Cache&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
