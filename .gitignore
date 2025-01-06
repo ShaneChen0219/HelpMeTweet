@@ -1,34 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-frontend/ecommercewebsite/node_modules
-frontend/ecommercewebsite/.pnp
-frontend/ecommercewebsite/.pnp.*
-frontend/ecommercewebsite/.yarn/*
-frontend/ecommercewebsite/!.yarn/patches
-frontend/ecommercewebsite/!.yarn/plugins
-frontend/ecommercewebsite/!.yarn/releases
-frontend/ecommercewebsite/!.yarn/versions
-
-# testing
-frontend/ecommercewebsite/coverage
-
-# next.js
-frontend/ecommercewebsite/.next/
-frontend/ecommercewebsite/out/
-
-# production
-frontend/ecommercewebsite/build
-
 # misc
 .DS_Store
 *.pem
-
-# debug
-frontend/ecommercewebsite/npm-debug.log*
-frontend/ecommercewebsite/yarn-debug.log*
-frontend/ecommercewebsite/yarn-error.log*
-frontend/ecommercewebsite/.pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
 .env*
@@ -36,6 +10,51 @@ frontend/ecommercewebsite/.pnpm-debug.log*
 # vercel
 .vercel
 
-# typescript
-frontend/ecommercewebsite/*.tsbuildinfo
-frontend/ecommercewebsite/next-env.d.ts
+
+## User settings
+**/xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+**/build/
+**/DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Gcc Patch
+**/*.gcno
+
+## obnoxious file that has thumbnails and stuff
+.DS_Store
+
+## make debug folder 
+**/cmake-build-debug/
+
+## .o files
+*.o
+
+## executable file
+*.exe
+*.bin
+*.out
+
+#Cmake
+**/CMakeLists.txt
+**/.idea
+*.venv
+.vscode
+
+
+# misc
+.DS_Store
+*.pem
